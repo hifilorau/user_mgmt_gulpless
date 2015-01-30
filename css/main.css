@@ -1,1 +1,70 @@
-/* TODO: Style your site */
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+input {
+  margin: 2em;
+  padding: 1em;
+  width: 15em;
+  font-family: 'PT Sans', sans-serif;
+  font-size: .8em;
+  border-radius: .3em;
+}
+
+
+.user-container {
+  /*border: 1px solid black;*/
+  background: #f2ca73;
+  width: 35%;
+  min-height: 25em;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2em;
+
+  /*margin: 2em;*/
+}
+
+.user-form {
+  padding: 2em;
+  /*border: 1px solid black;*/
+  width: 100%;
+  margin: 0 auto;
+  background: #97c668;
+}
+
+
+
+.submit-button {
+  background-color: #d28500;
+  color: white;
+  padding: 1em;
+  display: block;
+  margin: 1.4em 0 0 2em;
+  max-width: 65%;
+  border-radius: .5em;
+  border: none;
+}
+
+.user-input-label {
+  display: block;
+  padding-bottom: em;
+  font-size: 2.3em;
+  margin-left: .8em;
+}
+
+h2 {
+  margin-bottom: 1em;
+  font-size: 2.3em;
+  margin-left: .8em;
+}
+
+li {
+  list-style: none;
+}
+
+.user-class{
+  word-spacing: 7em;
+  margin-left: 2em;
+  font-size: 1.4em;
+
+}
