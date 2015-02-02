@@ -5,19 +5,34 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
   <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+  <link href="https://fontastic.s3.amazonaws.com/wW9EenP8nwvRqEySGEnPBk/icons.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
 </head>
 <body>
+  <header>
+    <nav class="melon-nav">
+      <a href="" class="logo">MELON<span class="logo2">app</span></a>
+      <a href="" class="h-link">about</a>
+      <a href="" class="h-link">upgrade</a>
+      <a href="" class="h-link">signup</a>
+
+
+    </nav>
+
+  </header>
   <form class="user-form">
     <label class="user-input-label">User input</label>
-    <input type="text" class="first-name-input" placeholder="Enter Your First Name" required>
-    <input type="text" class="last-name-input" placeholder="Enter Your Last Name" required>
-    <input type="email" class="email-input" placeholder="Enter Email Address" required>
-    <input type="submit" class="submit-button" value="ENTER USER">
+    <input type="text" class="first-name-input" placeholder="Enter Your First Name" max-length="12" required>
+    <input type="text" class="last-name-input" placeholder="Enter Your Last Name" max-length="12" required>
+    <input type="email" class="email-input" placeholder="Enter Email Address" max-length="17" required>
+    <input type="submit" class="submit-button" value="ADD USER">
   </form>
 
   <div class="user-container">
     <h2>Users</h2>
+
     <ul class="users">
+      <li class="header-li"><span class="label-fn">First Name</span><span class="label-ln">Last Name</span><span class="label-email">Email</span></li>
 
     </ul>
 
